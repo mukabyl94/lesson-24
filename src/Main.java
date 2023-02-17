@@ -31,7 +31,12 @@ public class Main {
         students.add(new Student("Mukabyl", 28));
         students.add(new Student("Mukabyl", 28));
 
-        System.out.println(students);
+
+//        System.out.println(students);
+        System.out.println(students.hashCode());
+        for (Student student : students) {
+            System.out.println(student);
+        }
 
     }
 }
